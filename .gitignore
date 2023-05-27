@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+
+# file ngu cua Mac
+.DS_Store
+
 # file nay kg upoload
 key_weather
 
