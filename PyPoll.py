@@ -13,6 +13,5 @@ with open(file_to_load) as election_data:
     headers=next(file_reader)
     print(headers)
 
-
 with open(file_to_save,'w') as txtfile:
     txtfile.write('Counties in the election\n-------------------------\nArapahoe\nDenver\nJefferson')
